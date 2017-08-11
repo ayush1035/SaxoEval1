@@ -1,0 +1,228 @@
+.navbar-default 
+{
+background-color:gray;
+border-color: transparent;
+
+}
+
+.p
+{
+    font-size: 15px;
+   position: relative;
+   left: 3%;
+}
+
+.col-md-4 {
+    width: 32.333333%;
+}
+.oneImage
+{
+    box-shadow: 10px 10px 5px #888888;
+
+	margin: 10px;
+	opacity: 0.8;
+	border: 2px solid #eee;
+	
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	
+	/*Reflection*/
+}
+.oneImage:hover {  
+   opacity: 1;
+   
+  
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}  
+
+.navbar
+{
+    
+    min-height: 50px;
+    
+}
+.navbar-default .navbar-nav>li>a 
+{
+    color:white;
+    font-size: 25px;
+    line-height: 25px;
+
+}
+.heading
+{
+    
+    text-align: center;
+    color:black;
+
+}
+#homeDiv
+{
+	margin-left:50px;
+}
+body
+{
+    color: white;
+    background-color: lightgray;
+    
+}
+.footer
+{
+    
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    bottom: 0%;
+    text-align: center;
+    left:35%
+}
+
+ .search-box,.close-icon,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	width: 350px;
+	margin: auto;
+	margin-top: 50px;
+}
+.search-box {
+	width: 60%;
+	border: 1px solid #ccc;
+	outline: 0;
+	left: 12%;
+	border-radius: 15px;
+	color: black;
+}
+.search-box:focus {
+	box-shadow: 0 0 15px 5px #b0e0ee;
+	border: 2px solid #bebede;
+}
+.close-icon {
+    left: 12%;
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+	outline: 0;
+	cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	background-color: #FA9595;
+	z-index:1;
+	right: 35px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	box-shadow: 0 0 2px #E50F0F;
+	cursor: pointer;
+}
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+.searchBtn
+{
+    position: absolute;
+    left: 73%;
+    font-size: 22px;
+    font-family: cursive;
+    
+    
+}
+
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.detail
+{
+	color: black;
+	margin-left: 500px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: gray;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: gray;
+    color: white;
+}
